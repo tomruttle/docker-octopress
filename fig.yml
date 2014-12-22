@@ -1,0 +1,6 @@
+blog:
+  build: .
+  volumes:
+    - tomruttle.github.io:/app
+  ports:
+    - "1234:4000"
